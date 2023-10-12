@@ -10,7 +10,7 @@ declare var require: any;
 
 registerLanguage({
 	id: 'razor',
-	extensions: ['.cshtml'],
+	extensions: ['.cshtml', '.razor'],
 	aliases: ['Razor', 'razor'],
 	mimetypes: ['text/x-cshtml'],
 	loader: () => {
